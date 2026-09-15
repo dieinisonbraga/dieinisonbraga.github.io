@@ -574,3 +574,54 @@ body {
 html {
     scroll-behavior: smooth;
 }
+.education-item .supervisor {
+    font-size: 0.95rem;
+    color: #666;
+    font-style: italic;
+    margin-bottom: 5px;
+}
+
+
+.visiting-item {
+    margin-left: 1rem;
+    padding-left: 0.75rem;
+    border-left: 2px solid #ddd;
+    margin-top: 0.5rem;
+}
+.education-item .visiting-item {
+    margin-top: 12px;
+    padding-left: 15px;
+    border-left: 2px solid #e5e5e5;
+}
+
+.education-item .visiting-item .visiting-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #0066cc;
+    margin-bottom: 4px;
+}
+
+.education-item .visiting-item .supervisor {
+    margin-bottom: 4px;
+}
+
+.education-item .visiting-item .year {
+    margin-bottom: 10px;
+}
+
+.education-item .visiting-item:last-child .year {
+    margin-bottom: 0;
+}
+
+.education-item .visiting-item .visiting-title a,
+.education-item .supervisor a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: #ccc;
+}
+
+.education-item .visiting-item .visiting-title a:hover,
+.education-item .supervisor a:hover {
+    color: #F28500;
+    text-decoration-color: #F28500;
+}
